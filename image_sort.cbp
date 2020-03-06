@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="image_sort" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/image_sort" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DSFML_STATIC" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/image_sort" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-DSFML_STATIC" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SFML-2.5.1/bin" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SFML-2.5.1/lib" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SFML-2.5.1/include" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-graphics" />
+			<Add library="sfml-window" />
+			<Add library="sfml-system" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SFML-2.5.1/bin" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SFML-2.5.1/lib" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SFML-2.5.1/include" />
+		</Linker>
+		<Unit filename="B_sort.h" />
+		<Unit filename="G_sort.h" />
+		<Unit filename="R_sort.h" />
+		<Unit filename="bidi_sort/X_sort_B.h" />
+		<Unit filename="bidi_sort/X_sort_G.h" />
+		<Unit filename="bidi_sort/X_sort_R.h" />
+		<Unit filename="bidi_sort/Y_sort_B.h" />
+		<Unit filename="bidi_sort/Y_sort_G.h" />
+		<Unit filename="bidi_sort/Y_sort_R.h" />
+		<Unit filename="bidi_sort/fold.h" />
+		<Unit filename="bubble_algo" />
+		<Unit filename="image_load.h" />
+		<Unit filename="image_sort.h" />
+		<Unit filename="line_by_line.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="new_sort.h" />
+		<Unit filename="newsort/new_B.h" />
+		<Unit filename="newsort/new_G.h" />
+		<Unit filename="newsort/new_R.h" />
+		<Unit filename="pixel_swap.h" />
+		<Unit filename="row_by_row.h" />
+		<Unit filename="sfml_vars.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
